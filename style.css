@@ -1,0 +1,231 @@
+.body {
+	background-color: #FEE12B;
+	width: 210px;
+	height: 300px;
+	border: 6px solid black;
+	position: relative;
+	margin: 100px;
+}
+
+.eyes {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 210px;
+	z-index: 10;
+}
+
+.firsteye {
+	background: #fff;
+	position: relative;
+	border: 5px solid #000;
+	width: 100px;
+	height: 100px;
+	margin-right: -17px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.secondeye {
+    background: #fff;
+	position: relative;
+	border: 5px solid #000;
+	width: 100px;
+	height: 100px;
+	margin-right: -17px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.globule {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	background: #00AEEF;
+	border: 3px solid #000;
+}
+
+.iris {
+
+	width: 30px;
+	height: 30px;
+	background: #000;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.nose {
+	width: 20px;
+	height: 40px;
+	background: #FEE12B;
+	position: absolute;
+	top: 80;
+	left: 90px;
+	border: 5px solid #000;
+	border-bottom: 5px solid transparent;
+	border-radius: 40%;
+	z-index: 8;
+}
+
+.mouth {
+    width: 180px;
+	height: 80px;
+	background: transparent;
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	right: 60px;
+	border-radius: 50%;
+	border-bottom: 5px solid #000;
+}
+
+.tooths {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 80px;
+	left: 65px;
+}
+
+.tooth1 {
+
+	width: 20px;
+	height: 20px;
+	background: white;
+	border: 5px solid #000;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.first-cheek {
+    width: 30px;
+	height: 20px;
+	background: transparent;
+	position: absolute;
+	top: 30px;
+	border: 3px solid #F1592A;
+	border-bottom: 5px transparent;
+	border-radius: 50% 50% 20% 20%;
+}
+
+.second-cheek {
+    width: 30px;
+	height: 20px;
+	background: transparent;
+	position: absolute;
+	top: 30px;
+	border: 3px solid #F1592A;
+	border-bottom: 5px transparent;
+	border-radius: 50% 50% 20% 20%;
+	right: 0px;
+}
+
+.trousers {
+    width: 211px;
+	height: 60px;
+	background: #6A3D13;
+	position: absolute;
+	bottom: 0%;
+	right: 6px;
+	left: 0px;
+	border-top: 5px solid #000;
+	z-index: 10;
+}
+
+.belt1 {
+	left: 20px;
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	background: #000;
+}
+
+.belt2 {
+	left: 90px;
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	background: #000;
+}
+
+.belt3 {
+	right: 80px;
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	background: #000;
+}
+
+.belt4 {
+	right: 20px;
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	background: #000;
+}
+
+.shirt {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	bottom: 50px;
+	border-top: 5px solid #000;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.tie {
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	background: white;
+	top: -25px;
+	border: 5px solid #000;
+	transform: rotate(30deg);
+}
+
+.secondneck {
+
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	background: white;
+	top: -25px;
+	border: 5px solid #000;
+	right: 10;
+	transform: rotate(30deg);
+}
+
+.necktie {
+
+	width: 40px;
+	height: 40px;
+	background: #F00200;
+	border: 5px solid;
+	position: absolute;
+	left: 67;
+	bottom: 25px;
+	transform: rotate(100deg);
+}
+
+.finaltie {
+	width: 45px;
+	height: 45px;
+	background: #F00200;
+	border: 5px solid #000;
+	position: absolute;
+	left: 80px;
+	bottom: 2px;
+	z-index: 15;
+	transform: rotate(45deg);
+}
